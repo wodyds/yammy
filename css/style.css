@@ -32,6 +32,21 @@ a { /* LoVe, HAte */
 #header .user {
     float: right;
 }
+#burger {
+    display: none;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    right: 5%;    
+}
+#burger .mobile span {
+    display:block;
+    background-color:#000;
+    height: 3px;
+}
+#burger .mobile span:nth-child(2) {
+    margin: 3px 0;
+}
 #tnb li {
     display: inline-block;
     margin-left: 15px;
