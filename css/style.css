@@ -95,7 +95,7 @@ a { /* LoVe, HAte */
 /* ========slide===========*/
 
 #slide {
-    height: 200px;
+    height: 400px;
     overflow: hidden;
     position: relative;
 }
@@ -105,12 +105,23 @@ a { /* LoVe, HAte */
     color: #fff;
     text-shadow: 0 0 5px #333; /* 글자 그림자 효과 */
     left: 50%;
-    top: 120px;
-    transform:translateX(-50%);
-    font-size: 30px;
+    top: 50%;
+    transform:translate(-50%,-50%);    
+    text-align: center;    
 }
+.slogan h3 {
+    font-size: 2rem;
+}
+.slogan h4 {
+    font-size: 3rem;
+    font-weight: 900;
+}
+/* =======bx-slider css======= */
 .bx-wrapper {
     border: 0;
+}
+.slider img {
+    height: 400px;
 }
 /* ============icons============= */
 #icons {
